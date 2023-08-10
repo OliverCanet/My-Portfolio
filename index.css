@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #141414;
+    font-family: 'Playfair Display', serif;
+}
+
+.bg-Black{
+    background-image: url(./assets/filmGrain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-1{
+    background-image: url(./assets/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image-2{
+    background-image: url(./assets/2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 18vw;
+    height: 36vh;
+    position: absolute;
+    left: 62.5vw;
+    top: 4vh;
+}
+
+.text-title{
+    position: absolute;
+    left: 30vw;
+    top: 40vh;
+}
+
+.small-title{
+    font-size: 30px;
+    text-decoration: none;
+    color: #141414;
+    font-style: italic;
+}
+.small-title:hover{
+    transition: 0.5s;
+    color: rgb(129, 129, 129)!important;
+    font-style: normal;
+    
+    
+}
+
+.h5-title{
+    font-size: 40px;
+    text-decoration: none;
+    color: #141414;
+    font-style: italic;
+    padding: 1px;
+    transition: 0.5s;
+}
+
+.h5-title:hover{
+    transition: 0.5s;
+    background-color: #141414;
+    
+    color:#d4d4d4!important;
+    font-style: normal;
+}
+
+.name{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    color: #d4d4d4;
+}
+
+.invisible{
+    display: none;
+}
+.visible{
+    display: flex;
+}
+
+.intro{
+    position: absolute;
+    padding: 5px;
+    top: 4vh;
+    left: 47vw;
+    width: 15vw;
+    transition: 1s;
+}
+.intro:hover{
+    position: absolute;
+    top: 4vh;
+    left: 47vw;
+    width: 15vw;
+    transition: 1s;
+    background-color: #141414;
+    
+}
+
+.intro p:hover{
+
+    color: #d4d4d4!important;
+}
+
+
+.projects{
+    position: absolute;
+    padding: 5px;
+    top: 57vh;
+    left: 47vw;
+    width: 34vw;
+    transition: 1s;
+}
+
+.educacion{
+    position: absolute;
+    top: 20vh;
+    padding-left: 10px;
+    left: 80.55vw;
+    transition: 0.5s;
+}
+
+.educacion p{
+    padding-left: 10px;
+    transition: 0.5s;
+}
+
+.educacion p:hover{
+    transition: 1s;
+    background-color: #141414;
+    color: #d4d4d4!important;
+}
+
+.links{
+    padding-left: 10px;
+    position: absolute;
+    left: 21vw;
+    top: 20vh;
+}
+
+.blank-space{
+    position: absolute;
+    width: 18.5vw;
+    height: 17.5vh;
+    left: 81vw;
+    top: 4vh;
+    transition: 2.5s;
+    
+}
+
+.blank-space-2{
+    position: absolute;
+    width: 79.5vw;
+    height: 21.5vh;
+    left: 1vw;
+    top: 77.2vh;
+    transition: 2.5s;
+    
+}
+
+.blank-space-2:hover{
+    background-color: #141414;
+    transition: 0.5s;
+}
+
+.blank-space-3{
+    position: absolute;
+    width: 18.5vw;
+    height: 13.5vh;
+    left: 81vw;
+    top: 85.2vh;
+    transition: 2.5s;
+    
+    
+}
+
+.blank-space-3:hover{
+    background-color: #141414;
+    transition: 0.5s;
+}
+
+.portfolio{
+    position: absolute;
+    width: 45.25vw;
+    height: 16.2vh;
+    left: 1vw;
+    top: 4vh;
+    transition: 0.5s;
+    background-color: #141414;
+    color: #d4d4d4;
+    justify-content: center;
+    align-items: center;
+    
+    display: flex;
+}
+
+.portfolio:hover{
+    background-color: #d4d4d4;
+    color: #141414;
+}
+.knowledge{
+    position: absolute;
+    width: 15vw;
+    height: 72vh;
+    left: 0.7vw;
+    top: 24.3vh;
+    transition: 0.5s;
+    
+    
+    
+}
+
+.blank-space:hover{
+    background-color: #141414;
+    transition: 0.5s;
+}
+
+.font-title{
+    font-size: 90px;
+    padding: 5px;
+    background-color: #141414;
+    color:#d4d4d4!important;
+}
+
+.font-title:hover{
+    transition: 0.5s;
+    color: rgb(31, 31, 31)!important;
+    background-color: #d4d4d4;
+    
+}
+

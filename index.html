@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Oliver Canet-Leiva</title>
+</head>
+<body class="bg-Black" id="app">
+    <header>
+        
+    </header>
+        <main style="height: 100vh;" class="d-flex justify-content-start align-items-center">
+            <div class="container">
+                <div class="text-title">
+                    <a  @click="button = !button" class="small-title d-flex justify-content-end">CONTINUE</a>
+                    <h1 class="font-title">OLIVER CANET-LEIVA</h1>
+                </div>
+                <div style="height: 500px; width: 30vw;" class=" image-1">
+                    
+                </div>
+
+            </div>
+            <div v-if="button==true" style="display: flex;">
+                <div class="intro animate__animated animate__fadeIn">
+                    <p>I'm <span class="name">Oliver Canet-Leiva</span> i was born in New York, United States, I've always been
+                        interested in the technological world and I decided to study electronics and I recently graduated in JAVA Full Stack Development.
+                        I consider myself a very organized and flexible person to changes; I am fluent with both
+                        English and Spanish, I work very well in a team and I like to learn
+                        I like to learn constantly and I can adapt easily.
+                        I like to be always updated about technological changes, that's why I love programming
+                        and everything related to technology.</p>
+                </div>
+            </div>
+            <div v-if="button==true" style="display: flex;">
+                <div class="projects animate__animated animate__fadeIn">
+                    
+                        <a class="bolder small-title"  href="https://github.com/OliverCanet/The-Winest">The Winest</a>
+                        <p>This project was a wine e-commerce in which I was in
+                        charge of part of the front end. </p>
+                        <a class="bolder small-title" href="https://github.com/OliverCanet/MindHub-HomeBanking">MindHub HomeBanking</a>
+                        <p>This project was a homebanking project in which I was
+                        in charge of all aspects, both front and back-end.</p>
+                </div>
+            </div>
+            <div v-if="button==true" style="display: flex;">
+                <div class="educacion animate__animated animate__fadeIn">
+                    
+                        <p>
+                           <h4 class="small-title">MindHub</h4> 
+                                <h5>Ago 2022 - Dic 2022</h5>
+                                    <p>A course that simulates a real work environment, the
+                                        course would go from 10am to 7pm, making a total of
+                                        700hs.
+                                        In this course we had to do individual and group
+                                        projects in which I gained knowledge in HTML, CSS,
+                                        Javascript, vue.js, JAVA, AJAX, SpringBoot,
+                                        PostgressSQL, Git and agile SCRUM methodology.</p>
+
+                        </p>
+                        <p>
+                            <h4 class="small-title">ORT Argentina</h4>
+                                <h5>2016 - 2021</h5>
+                                    <p>I graduated from ORT as Bachelor in Computer
+                                        Science with Jurisdictional Certification in Information
+                                        and Communication Technologies.</p>
+                        </p>
+                        <p>
+                            <h4 class="small-title">UTN Universidad Tecnológica Nacional</h4>
+                                <h5>2023 - now</h5>
+                                    <p>Currently studying programming at UTN Universidad
+                                        Tecnológica Nacional, 1st year.</p>
+                        </p>
+                </div>
+            </div>
+            <div v-if="button==true" style="display: flex;">
+                <div class="image-2 animate__animated animate__fadeIn">
+                    
+                        
+                </div>
+            </div>
+            <div v-if="button==true" style="display: flex;">
+                <div class="links animate__animated animate__fadeIn">
+                    <a href="#" class="small-title">LINKEDIN</a>
+                    <a href="https://github.com/OliverCanet" class="small-title">GITHUB</a>
+                    <a href="https://www.upwork.com/freelancers/~01b90452c5bec31c7d" class="small-title">UPWORK</a>
+                </div>
+            </div>
+            <div v-if="button==true" style="display: flex;">
+                <div class="blank-space animate__animated animate__fadeIn">
+                    
+                </div>
+            </div>
+            <div v-if="button==true" style="display: flex;">
+                <div class="blank-space-2 animate__animated animate__fadeIn">
+                    
+                </div>
+            </div>
+            <div v-if="button==true" style="display: flex;">
+                <div class="blank-space-3 animate__animated animate__fadeIn">
+                    
+                </div>
+            </div>
+            <div v-if="button==true" style="display: flex;">
+                <div class="portfolio animate__animated animate__fadeIn">
+                    <h1 style="font-size: 140px;">PORTFOLIO</h1>
+                </div>
+            </div>
+            <div v-if="button==true" style="display: flex;">
+                <div class="knowledge animate__animated animate__fadeIn d-flex flex-column align-items-end">
+                    <h5 class="small-title h5-title" >KNOWLEDGE</h5>
+                    <h4 class="small-title">ENGLISH</h4>
+                    <h4 class="small-title">SPANISH</h4>
+                    <h4 class="small-title">HTML & CSS</h4>
+                    <h4 class="small-title">JS</h4>
+                    <h4 class="small-title">JAVA</h4>
+                    <h4 class="small-title">C++</h4>
+                    <h4 class="small-title">C#</h4>
+                    <h4 class="small-title">EXCEL</h4>
+                </div>
+            </div>
+
+            
+            
+
+          
+            
+
+        </main>
+    
+    
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="vue.js"></script>
+</body>
+</html>
